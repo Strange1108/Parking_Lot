@@ -1,4 +1,4 @@
-#Problem Statement 
+# Problem Statement
 
 I own a parking lot that can hold up to 'n' cars at any given point in time. Each slot is given a number starting at 1 increasing with increasing distance from the entry point in steps of one. I want to create an automated ticketing system that allows my customers to use my parking lot without human intervention. 
 
@@ -16,6 +16,7 @@ We interact with the system via a simple set of commands which produce a specifi
 Example: Interactive 
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command. Note that exit terminates the process and returns control to the shell. 
 
+```bash
 $ create_parking_lot 6 
 Created a parking lot with 6 slots 
 $ park KA-01-HH-1234 White 
@@ -45,6 +46,3 @@ $ park DL-12-AA-9999 White
 Sorry, parking lot is full 
 $ registration_numbers_for_cars_with_colour White KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333 
 $ exit
-
-
-The application needs to be created using Java as the underlying programming language.
